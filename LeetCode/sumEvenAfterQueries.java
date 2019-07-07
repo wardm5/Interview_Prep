@@ -6,14 +6,14 @@ class Solution {
     public int[] sumEvenAfterQueries(int[] A, int[][] queries) {
         int[] arr = new int[A.length];
         int sum = 0;
-        for (int i = 0; i < A.length; i++) {
+        for (int i = 0; i < A.length; i++) {  // quick loop to get initial sum value.
             if (A[i] % 2 == 0) 
                 sum+= A[i];
         }
         for (int i = 0; i < queries.length; i++) {
-            int old = A[queries[i][1]];
-            A[queries[i][1]] = A[queries[i][1]] + queries[i][0];
-            int val = A[queries[i][1]];
+            int old = A[queries[i][1]];    // calculate old val
+            A[queries[i][1]] = A[queries[i][1]] + queries[i][0];   // update array
+            int val = A[queries[i][1]];  // calculate new val
             if (old % 2 == 0 &&  val % 2 == 0) {   // if old is even and is still even
                 sum = sum + (val - old);  // add difference
             } else if (old % 2 == 0 && val % 2 != 0) {  // if old is even and goes odd
@@ -21,9 +21,9 @@ class Solution {
             } else if (old %  2 != 0 && val % 2 == 0) {  // if old is odd and now even
                 sum += val;  //  add the val to the sum
             }
-            arr[i] = sum;
+            arr[i] = sum;   // update array
         }
-        return arr;
+        return arr;  // return array
     }
 }
 
