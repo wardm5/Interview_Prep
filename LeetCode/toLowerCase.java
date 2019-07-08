@@ -1,5 +1,7 @@
-//  709. To Lower Case
-//  Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
+/*
+    709. To Lower Case
+    https://leetcode.com/problems/to-lower-case/
+ */
 
 class Solution {
     public String toLowerCase(String str) {
@@ -14,3 +16,8 @@ class Solution {
         return result.toString();
     }
 }
+
+/*
+    Runtime: 0 ms, faster than 100.00% of Java online submissions for To Lower Case.
+    Memory Usage: 34.3 MB, less than 99.80% of Java online submissions for To Lower Case.
+ */
