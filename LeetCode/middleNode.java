@@ -1,15 +1,15 @@
 /*
     876. Middle of the Linked List
-    https://leetcode.com/problems/middle-of-the-linked-list/submissions/
+    https://leetcode.com/problems/middle-of-the-linked-list/
  */
 
 class Solution {
     public ListNode middleNode(ListNode head) {
-        ListNode curr = head;
-        ListNode temp = head;
-        while (temp != null && temp.next != null) {
-            curr = curr.next;
-            temp = temp.next.next;
+        ListNode curr = head;  // head of list
+        ListNode temp = head;  // temp, which will go ahead of the head of the list by 2X
+        while (temp != null && temp.next != null) {  // while temp and temp next are not empty
+            curr = curr.next;  // set curr to next item in linked list
+            temp = temp.next.next;  // set temp to next next item in the list
         }
         return curr;
     }
