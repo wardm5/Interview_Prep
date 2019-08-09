@@ -5,15 +5,13 @@
 
 class Solution {
     public char findTheDifference(String s, String t) {
-        int s1 = 0;
-        int s2 = 0;
+        int sum = 0;
         for (int i = 0; i < t.length(); i++) {
             if (i < s.length())
-                s1 += (int) s.charAt(i);
-            s2 += (int) t.charAt(i);
+                sum += (int) s.charAt(i);
+            sum -= (int) t.charAt(i);
         }
-        // System.out.println((s1-s2) + "  " + s1 + "  " + s2);
-        return (char) (Math.abs(s1-s2));
+        return (char) Math.abs(sum);
     }
 }
 
