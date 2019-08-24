@@ -1,3 +1,8 @@
+/*
+    169. Majority Element
+    https://leetcode.com/problems/majority-element/
+ */
+
 class Solution {
     public int majorityElement(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -12,3 +17,8 @@ class Solution {
         return -1;
     }
 }
+
+/*
+    Runtime: 11 ms, faster than 39.84% of Java online submissions for Majority Element.
+    Memory Usage: 40.9 MB, less than 99.26% of Java online submissions for Majority Element.
+ */
