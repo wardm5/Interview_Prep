@@ -45,5 +45,5 @@ class Solution {
 
 /*
     Runtime: 0 ms, faster than 100.00% of Java online submissions for Merge Two Binary Trees.
-    Memory Usage: 44.2 MB, less than 17.28% of Java online submissions for Merge Two Binary Trees.
+    Memory Usage: 39.9 MB, less than 100.00% of Java online submissions for Merge Two Binary Trees.
  */
