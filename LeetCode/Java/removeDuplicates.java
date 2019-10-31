@@ -6,17 +6,20 @@
 class Solution {
     public String removeDuplicates(String S) {
         Stack<Character> stack = new Stack<>();
-        for (int i = 0; i < S.length(); i++) {
+        stack.push(S.charAt(0));
+        for (int i = 1; i < S.length(); i++) {
             if (!stack.isEmpty() && stack.peek() == S.charAt(i))
                 stack.pop();
             else 
                 stack.push(S.charAt(i));
         }
-        List<Character> list = new ArrayList(stack);
-        String res = "";
-        for (int i = 0; i < list.size(); i++)
-            res += list.get(i);
-        return res;
+        Iterator<Character> itr = stack.iterator();
+        StringBuilder build = new StringBuilder();
+        while(itr.hasNext()) {
+            build.append(itr.next());
+        }
+        
+        return build.toString();
     }
 }
 
