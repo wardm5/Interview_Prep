@@ -31,6 +31,6 @@ class Solution {
 // }
 
 /*
-    Runtime: 45 ms, faster than 6.08% of Java online submissions for Maximum Subarray.
-    Memory Usage: 39.8 MB, less than 7.04% of Java online submissions for Maximum Subarray.
+    Runtime: 1 ms, faster than 73.05% of Java online submissions for Maximum Subarray.
+    Memory Usage: 42 MB, less than 5.16% of Java online submissions for Maximum Subarray.
  */
