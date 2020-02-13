@@ -30,15 +30,6 @@ Return the decimal value of the number in the linked list.
 //    Soluton
 //-------------------------------------------------------------------------------
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
-
  /**
   * Definition for singly-linked list.
   * public class ListNode {
