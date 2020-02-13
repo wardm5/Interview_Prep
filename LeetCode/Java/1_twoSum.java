@@ -30,20 +30,18 @@ use the same element twice.
 //-------------------------------------------------------------------------------
 
 class Solution {
-    public int numJewelsInStones(String J, String S) {
-        HashSet<Character> set = new HashSet<>();
-        for (int i = 0; i < J.length(); i++)
-            set.add(J.charAt(i));
-        int count = 0;
-        for (int i = 0; i < S.length(); i++) {
-            if (set.contains(S.charAt(i)))
-                count++;
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(target-nums[i]))
+                return new int[] {map.get(target-nums[i]), i};
+            map.put(nums[i], i);
         }
-        return count;
+        return new int[2];
     }
 }
 
 /*
-    Runtime: 1 ms, faster than 86.04% of Java online submissions for Jewels and Stones.
-    Memory Usage: 38.4 MB, less than 5.05% of Java online submissions for Jewels and Stones.
+    Runtime: 1 ms, faster than 99.91% of Java online submissions for Two Sum.
+    Memory Usage: 41.9 MB, less than 5.65% of Java online submissions for Two Sum.
 */
