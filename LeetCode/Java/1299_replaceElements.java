@@ -42,6 +42,6 @@ class Solution {
 }
 
 /*
-    Runtime: 1 ms, faster than 86.04% of Java online submissions for Jewels and Stones.
-    Memory Usage: 38.4 MB, less than 5.05% of Java online submissions for Jewels and Stones.
+    Runtime: 2 ms, faster than 31.47% of Java online submissions for Replace Elements with Greatest Element on Right Side.
+    Memory Usage: 43.6 MB, less than 100.00% of Java online submissions for Replace Elements with Greatest Element on Right Side.
 */
