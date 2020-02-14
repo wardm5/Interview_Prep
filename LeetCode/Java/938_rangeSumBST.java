@@ -51,6 +51,6 @@ class Solution {
 }
 
 /*
-    Runtime: 0 ms, faster than 100.00% of Java online submissions for To Lower Case.
-    Memory Usage: 37.7 MB, less than 6.49% of Java online submissions for To Lower Case.
+    Runtime: 0 ms, faster than 100.00% of Java online submissions for Range Sum of BST.
+    Memory Usage: 48 MB, less than 78.49% of Java online submissions for Range Sum of BST.
 */
