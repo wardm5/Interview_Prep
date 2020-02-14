@@ -51,8 +51,7 @@ class Solution {
     }
 }
 
-
-
+   
 /*
     Runtime: 1 ms, faster than 95.43% of Java online submissions for Find Numbers with Even Number of Digits.
     Memory Usage: 39.1 MB, less than 100.00% of Java online submissions for Find Numbers with Even Number of Digits.
