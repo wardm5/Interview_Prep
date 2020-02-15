@@ -14,7 +14,17 @@ Given a 32-bit signed integer, reverse digits of an integer.
 //-------------------------------------------------------------------------------
 
 /*
-    1) Recursion...
+    1) first create sign, check what the sign is of the int passed in
+    2) create long array with one value
+    3) call recursive method with abs value of input, result array, and count
+        4) if number is less than 0 or 0, then return 0
+        5) set temp num
+        6) divide num by 10
+        7) get the power by calling a recurisve call
+        8) update answer by adding the temp num * math pow(10 ^ pow)
+        9) return power
+    10) return 0 if long is greater or less than int size
+    11 return reversed number * sign
 */
 
 //-------------------------------------------------------------------------------
