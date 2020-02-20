@@ -21,11 +21,9 @@ It's guaranteed that a unique mapping will always exist.
 //-------------------------------------------------------------------------------
 
 /*
-    1) create string to store result
-    2) loop from end to front of input string
-    3) if the value is a hash tag, then the next two characters should be converted
-    4) if the value is not hash, then convert each character
-    5) return string once complete
+    1) create StringBuilder to store result
+    2) loop through input from the end to the front
+        3)
 */
 
 //-------------------------------------------------------------------------------
@@ -34,25 +32,27 @@ It's guaranteed that a unique mapping will always exist.
 
 class Solution {
     public String freqAlphabets(String s) {
-        String res = "";
+        StringBuilder build = new StringBuilder();
         for (int i = s.length() - 1; i >= 0; i--) {
             char tempChar = s.charAt(i);
-            char add = '';
+            char add = ' ';
             if (tempChar == '#') {
-                String sub = s.subString(i - 2, i - 1);
-                char add = Integer.valueOf(sub) + 'a';
-                i+= 2;
+                String sub = s.substring(i - 2, i);
+                int temp = Integer.parseInt(sub);
+                add = (char)('a' + temp - 1);
+                i-= 2;
             } else {
-                char add = Integer.valueOf(tempChar) + 'a';
+                int temp = Integer.valueOf(tempChar - '0') - 1;
+                add = (char)('a' + temp);
             }
-            res = add + res;
+            build.insert(0, add);
         }
-        return res;
+        return build.toString();
     }
 }
 
-   
+
 /*
-    Runtime: 1 ms, faster than 95.43% of Java online submissions for Find Numbers with Even Number of Digits.
-    Memory Usage: 39.1 MB, less than 100.00% of Java online submissions for Find Numbers with Even Number of Digits.
+    Runtime: 1 ms, faster than 83.77% of Java online submissions for Decrypt String from Alphabet to Integer Mapping.
+    Memory Usage: 37.4 MB, less than 100.00% of Java online submissions for Decrypt String from Alphabet to Integer Mapping.
 */
