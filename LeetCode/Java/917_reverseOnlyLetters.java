@@ -15,7 +15,13 @@ a letter stay in the same place, and all letters reverse their positions.
 //-------------------------------------------------------------------------------
 
 /*
-    1)
+    1) create start and end variables
+    2) convert String to char array
+    3) while start less than end
+        4) if the starting letter is not a letter, then increment start`
+        5) if the ending letter is not a letter, then decrement end
+        6) else swap chars at start and end, increment start and decrement end
+    7) return string with char array as value
 */
 
 //-------------------------------------------------------------------------------
@@ -31,8 +37,7 @@ class Solution {
             if (!Character.isLetter(str[start])) {
                 start++;
                 continue;
-            }
-            if (!Character.isLetter(str[end])) {
+            } else if (!Character.isLetter(str[end])) {
                 end--;
                 continue;
             }
