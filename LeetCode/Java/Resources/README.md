@@ -11,4 +11,8 @@
 
 ## Conversions
 #### Binary/Dec
-* https://www.geeksforgeeks.org/java-program-for-decimal-to-binary-conversion/
+* Convert dec to bin - https://www.geeksforgeeks.org/java-program-for-decimal-to-binary-conversion/
+
+## Queue
+#### Queue functions
+* Queue peek function - https://www.geeksforgeeks.org/queue-peek-method-in-java/
