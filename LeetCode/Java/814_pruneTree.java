@@ -46,6 +46,31 @@ of X.)
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+// updated code
+ class Solution {
+     public TreeNode pruneTree(TreeNode root) {
+         if (root == null)
+             return null;
+         if (!helper(root.left))
+             root.left = null;
+         if (!helper(root.right))
+             root.right = null;
+         return root;
+     }
+     public boolean helper(TreeNode root) {
+         if (root == null)
+             return false;
+         boolean leftBool = helper(root.left);
+         boolean rightBool = helper(root.right);
+         if (!leftBool)
+             root.left = null;
+         if (!rightBool)
+             root.right = null;
+         return leftBool || rightBool || (root.val == 1);
+     }
+ }
+
 class Solution {
     public TreeNode pruneTree(TreeNode root) {
         if (root == null)
