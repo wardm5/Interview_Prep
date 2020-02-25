@@ -71,6 +71,7 @@ of X.)
      }
  }
 
+// orginal answer
 class Solution {
     public TreeNode pruneTree(TreeNode root) {
         if (root == null)
