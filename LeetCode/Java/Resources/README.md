@@ -8,7 +8,6 @@
 ## Characters
  * Check if character is letter or digit - https://stackoverflow.com/questions/4047808/what-is-the-best-way-to-tell-if-a-character-is-a-letter-or-number-in-java-withou
 
-
 ## Conversions
 #### Binary/Dec
 * Convert dec to bin - https://www.geeksforgeeks.org/java-program-for-decimal-to-binary-conversion/
@@ -16,3 +15,6 @@
 ## Queue
 #### Queue functions
 * Queue peek function - https://www.geeksforgeeks.org/queue-peek-method-in-java/
+
+#### Priority Queue
+* Priority Queue - https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
