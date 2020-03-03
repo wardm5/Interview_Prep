@@ -43,7 +43,6 @@ class Solution {
             }
             else
                 tempMax = 0;
-
         }
         return max;
     }
