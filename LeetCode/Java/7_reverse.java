@@ -24,7 +24,7 @@ Given a 32-bit signed integer, reverse digits of an integer.
         8) update answer by adding the temp num * math pow(10 ^ pow)
         9) return power
     10) return 0 if long is greater or less than int size
-    11 return reversed number * sign
+    11) return reversed number * sign
 */
 
 //-------------------------------------------------------------------------------
