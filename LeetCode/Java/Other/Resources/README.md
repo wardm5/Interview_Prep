@@ -19,3 +19,7 @@
 
 #### Priority Queue
 * Priority Queue - https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
+
+## HashMaps
+#### LinkedHashMap
+* LinkedHashMap example - https://www.w3resource.com/java-tutorial/java-maps.php
