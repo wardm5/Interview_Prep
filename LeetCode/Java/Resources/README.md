@@ -1,5 +1,8 @@
 # Resources for Java
 
+## ArrayLists
+* shallow and deep copy - https://stackoverflow.com/questions/6536094/java-arraylist-copy
+
 ## Strings
 #### StringBuilder
 * Insert at beginning of StringBuilder - https://stackoverflow.com/questions/5931261/java-use-stringbuilder-to-insert-at-the-beginning
