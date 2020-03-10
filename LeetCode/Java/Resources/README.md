@@ -26,3 +26,10 @@
 ## HashMaps
 #### LinkedHashMap
 * LinkedHashMap example - https://www.w3resource.com/java-tutorial/java-maps.php
+
+## Priority Queue (Heap)
+#### Max Heap
+* Max heap - https://www.geeksforgeeks.org/max-heap-in-java/
+
+#### Min Heap
+* Min heap - https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
