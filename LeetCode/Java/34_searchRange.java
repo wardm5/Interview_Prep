@@ -45,7 +45,7 @@ public class Solution {
             return new int[]{left, right};
         return new int[]{-1, -1};
     }
-
+    // best way to do binary search
     private int binarySearchPos(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         while (left <= right) {
