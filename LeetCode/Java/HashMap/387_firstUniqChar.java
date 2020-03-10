@@ -47,13 +47,15 @@ class Solution {
         // }
         // return -1;
         HashMap<Character, Integer> map = new HashMap<>();
-        for (int i = 0 ; i < s.length(); i++) {
+        // loop through list, keep track of freq
+        for (int i = 0 ; i < s.length(); i++)
             map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0)+1);
-        }
+        // loop through list again, if you see item with freq 1, return that index
         for (int i = 0; i < s.length(); i++) {
             if (map.get(s.charAt(i)) == 1)
                 return i;
         }
+        // return error
         return -1;
     }
 }
