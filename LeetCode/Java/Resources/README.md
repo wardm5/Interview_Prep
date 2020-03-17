@@ -33,3 +33,7 @@
 
 #### Min Heap
 * Min heap - https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
+
+## Algorithms
+#####
+* Quick select - https://www.geeksforgeeks.org/quickselect-algorithm/
