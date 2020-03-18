@@ -1,7 +1,7 @@
 # Resources for Java
-
 ## ArrayLists
 * shallow and deep copy - https://stackoverflow.com/questions/6536094/java-arraylist-copy
+* initliaze array list - https://howtodoinjava.com/java/collections/arraylist/initialize-arraylist/
 
 ## Strings
 #### StringBuilder
