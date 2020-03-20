@@ -1,14 +1,31 @@
 # Resources for Java
 
-## Sorting Algorithms
-#### QuickSort
+## Algorithms
+#### Quick Select
+* quick select algorithm - https://www.geeksforgeeks.org/quickselect-algorithm/
+
+#### Sorting Algorithms
 * Quick sort algorithm for reference - https://www.youtube.com/watch?v=SLauY6PpjW4
-* quick sort on linkedlist - https://www.geeksforgeeks.org/quickselect-algorithm/
+* quick sort on linkedlist - https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/
 
-
-## ArrayLists
+## Data Structures
+#### ArrayLists
 * shallow and deep copy - https://stackoverflow.com/questions/6536094/java-arraylist-copy
 * initliaze array list - https://howtodoinjava.com/java/collections/arraylist/initialize-arraylist/
+
+#### Queue
+###### Queue functions
+* Queue peek function - https://www.geeksforgeeks.org/queue-peek-method-in-java/
+
+#### Priority Queue (Heap)
+###### Min Heap
+* Min heap - https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
+###### Max Heap
+* Max heap - https://www.geeksforgeeks.org/max-heap-in-java/
+
+#### HashMaps
+###### LinkedHashMap
+* LinkedHashMap example - https://www.w3resource.com/java-tutorial/java-maps.php
 
 ## Strings
 #### StringBuilder
@@ -22,28 +39,6 @@
 ## Conversions
 #### Binary/Dec
 * Convert dec to bin - https://www.geeksforgeeks.org/java-program-for-decimal-to-binary-conversion/
-
-## Queue
-#### Queue functions
-* Queue peek function - https://www.geeksforgeeks.org/queue-peek-method-in-java/
-
-#### Priority Queue
-* Priority Queue - https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
-
-## HashMaps
-#### LinkedHashMap
-* LinkedHashMap example - https://www.w3resource.com/java-tutorial/java-maps.php
-
-## Priority Queue (Heap)
-#### Max Heap
-* Max heap - https://www.geeksforgeeks.org/max-heap-in-java/
-
-#### Min Heap
-* Min heap - https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
-
-## Algorithms
-#####
-* Quick select - https://www.geeksforgeeks.org/quickselect-algorithm/
 
 ## Integers
 * Length of number - https://www.baeldung.com/java-number-of-digits-in-int
