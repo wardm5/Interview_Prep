@@ -7,13 +7,6 @@ Problem:
 1352. Product of the Last K Numbers
 Medium
 
-160
-
-9
-
-Add to List
-
-Share
 Implement the class ProductOfNumbers that supports two methods:
 
 1. add(int num)
