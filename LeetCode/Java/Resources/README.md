@@ -1,4 +1,11 @@
 # Resources for Java
+
+## Sorting Algorithms
+#### QuickSort
+* Quick sort algorithm for reference - https://www.youtube.com/watch?v=SLauY6PpjW4
+* quick sort on linkedlist - https://www.geeksforgeeks.org/quickselect-algorithm/
+
+
 ## ArrayLists
 * shallow and deep copy - https://stackoverflow.com/questions/6536094/java-arraylist-copy
 * initliaze array list - https://howtodoinjava.com/java/collections/arraylist/initialize-arraylist/
@@ -37,3 +44,6 @@
 ## Algorithms
 #####
 * Quick select - https://www.geeksforgeeks.org/quickselect-algorithm/
+
+## Integers
+* Length of number - https://www.baeldung.com/java-number-of-digits-in-int
