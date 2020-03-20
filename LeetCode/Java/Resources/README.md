@@ -14,17 +14,17 @@
 * initliaze array list - https://howtodoinjava.com/java/collections/arraylist/initialize-arraylist/
 
 #### Queue
-###### Queue functions
+##### Queue functions
 * Queue peek function - https://www.geeksforgeeks.org/queue-peek-method-in-java/
 
 #### Priority Queue (Heap)
-###### Min Heap
+##### Min Heap
 * Min heap - https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
-###### Max Heap
+##### Max Heap
 * Max heap - https://www.geeksforgeeks.org/max-heap-in-java/
 
 #### HashMaps
-###### LinkedHashMap
+##### LinkedHashMap
 * LinkedHashMap example - https://www.w3resource.com/java-tutorial/java-maps.php
 
 ## Strings
