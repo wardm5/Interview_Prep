@@ -52,6 +52,6 @@ class Solution {
 }
 
 /*
-    Runtime: 0 ms, faster than 100.00% of Java online submissions for Remove Outermost Parentheses.
-    Memory Usage: 38.1 MB, less than 100.00% of Java online submissions for Remove Outermost Parentheses.
+    Runtime: 251 ms, faster than 49.55% of Java online submissions for Repeated String Match.
+    Memory Usage: 38.1 MB, less than 16.67% of Java online submissions for Repeated String Match.
 */
