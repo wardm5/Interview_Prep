@@ -7,6 +7,8 @@
 ### Sorting Algorithms
 * Quick sort algorithm for reference - https://www.youtube.com/watch?v=SLauY6PpjW4
 * quick sort on linkedlist - https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/
+* Sort 2d array - https://stackoverflow.com/questions/15452429/java-arrays-sort-2d-array
+
 
 ## Data Structures
 ### ArrayLists
