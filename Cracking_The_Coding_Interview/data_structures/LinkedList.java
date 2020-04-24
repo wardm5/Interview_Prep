@@ -44,7 +44,25 @@ public class LinkedList {
             this.tail = prior;
         }
     }
-
+    // 2.2 return kth from end of Linked List
+    public int returnKthToLast(int k) {
+        if (head == null)
+            return -1;
+        int count = 0;
+        ListNode temp = this.head;
+        while (temp != null) {
+            count++;
+            temp = temp.next;
+        }
+        if (k > count)
+            return -1;
+        temp = this.head;
+        while (count - k - 1 > 0) {
+            temp = temp.next;
+            k++;
+        }
+        return temp.val;
+    }
 
     /*  HELPER METHODS  */
     // get head method - returns the head of the linked list
