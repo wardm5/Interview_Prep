@@ -5,12 +5,11 @@ public class Solutions {
         temp.next = new ListNode(39);
         LinkedList list = new LinkedList();
         list.createList();
-        list.print();
-        list.removeDuplicates();
-        list.print();
-        System.out.println(list.returnKthToLast(2));
-        System.out.println(list.returnKthToLast(0));
-        System.out.println(list.returnKthToLast(6));
-        System.out.println(list.returnKthToLast(7));
+        list.removeDuplicates();    // Printing List:   7 8 2 4 10 3
+        System.out.println(list.returnKthToLast(2));     // Should be 4
+        System.out.println(list.returnKthToLast(0));     // Should be 3
+        System.out.println(list.returnKthToLast(6));     // Should be 7
+        System.out.println(list.returnKthToLast(7));     // Should be -1
+        System.out.println(list.returnKthToLast(8));     // Should be -1
     }
 }
