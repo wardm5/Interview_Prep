@@ -12,7 +12,7 @@ public class Graph {
     }
     public boolean addConnection(int a, int b) {
         GraphNode tempB = new GraphNode(b);
-        System.out.println("tempB " + b + " =     " + tempB);
+        // System.out.println("tempB " + b + " =     " + tempB);
         for (GraphNode temp : graph) {
             if (temp.val == a) {
                 graph.add(tempB);
@@ -21,8 +21,7 @@ public class Graph {
             }
         }
         GraphNode tempA = new GraphNode(a);
-        System.out.println("tempA " + a + " =     " + tempA);
-        // System.out.println("tempB " + b + " =     " + tempB);
+        // System.out.println("tempA " + a + " =     " + tempA);
         tempA.addConnection(tempB);
         graph.add(tempA);
         // graph.add(tempB);

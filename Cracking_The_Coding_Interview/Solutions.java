@@ -3,10 +3,6 @@ public class Solutions {
     public static void main(String[] args) {
         runLinkedListProblems();
         runGraphProblems();
-
-
-
-
     }
     public static void runLinkedListProblems() {
         LinkedList list = new LinkedList();

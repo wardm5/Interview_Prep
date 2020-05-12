@@ -9,7 +9,6 @@
 * quick sort on linkedlist - https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/
 * Sort 2d array - https://stackoverflow.com/questions/15452429/java-arrays-sort-2d-array
 
-
 ## Data Structures
 ### ArrayLists
 * shallow and deep copy - https://stackoverflow.com/questions/6536094/java-arraylist-copy
@@ -28,6 +27,11 @@
 #### HashMaps
 ##### LinkedHashMap
 * LinkedHashMap example - https://www.w3resource.com/java-tutorial/java-maps.php
+
+##Arrays
+### Conversion from List to Array
+* Convert List to Array
+https://stackoverflow.com/questions/5374311/convert-arrayliststring-to-string-array
 
 ## Strings
 ### StringBuilder
