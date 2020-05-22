@@ -48,3 +48,17 @@ https://stackoverflow.com/questions/5374311/convert-arrayliststring-to-string-ar
 
 ## Integers
 * Length of number - https://www.baeldung.com/java-number-of-digits-in-int
+
+## Calendar
+### Simple date formatter
+* Tutorial for simple date formatter - http://tutorials.jenkov.com/java-internationalization/simpledateformat.html
+*
+
+### Calendar
+* Java documentation for calendar class - https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html
+* How to increment month in Calendar - https://stackoverflow.com/questions/4905416/how-do-i-add-one-month-to-current-date-in-java/29250229#29250229
+
+## Files
+### Traverse directory
+* Recurse through files - https://stackabuse.com/java-list-files-in-a-directory/
+* Recurse through files - https://stackoverflow.com/questions/2056221/recursively-list-files-in-java
