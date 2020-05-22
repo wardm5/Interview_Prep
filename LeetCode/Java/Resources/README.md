@@ -6,7 +6,7 @@
 
 ### Sorting Algorithms
 * Quick sort algorithm for reference - https://www.youtube.com/watch?v=SLauY6PpjW4
-* quick sort on linkedlist - https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/
+* quick sort on LinkedList - https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/
 * Sort 2d array - https://stackoverflow.com/questions/15452429/java-arrays-sort-2d-array
 
 ## Data Structures
@@ -52,7 +52,6 @@ https://stackoverflow.com/questions/5374311/convert-arrayliststring-to-string-ar
 ## Calendar
 ### Simple date formatter
 * Tutorial for simple date formatter - http://tutorials.jenkov.com/java-internationalization/simpledateformat.html
-*
 
 ### Calendar
 * Java documentation for calendar class - https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html
