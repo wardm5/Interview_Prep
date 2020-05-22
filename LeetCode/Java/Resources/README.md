@@ -61,3 +61,8 @@ https://stackoverflow.com/questions/5374311/convert-arrayliststring-to-string-ar
 ### Traverse directory
 * Recurse through files - https://stackabuse.com/java-list-files-in-a-directory/
 * Recurse through files - https://stackoverflow.com/questions/2056221/recursively-list-files-in-java
+
+### File extension
+* How to get the file extension of a file - https://stackoverflow.com/questions/3571223/how-do-i-get-the-file-extension-of-a-file-in-java
+* How to get absolute file path -  https://stackoverflow.com/questions/14526260/how-do-i-get-the-file-name-from-a-string-containing-the-absolute-file-path
+* How to get all files in directory - https://stackoverflow.com/questions/5694385/getting-the-filenames-of-all-files-in-a-folder
