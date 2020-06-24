@@ -48,12 +48,20 @@ Output: 0
 //-------------------------------------------------------------------------------
 
 class Solution {
-    public String template() {
-
+    public int searchInsert(int[] nums, int target) {
+        int low = 0, high = nums.length-1;
+        while (low <= high) {
+            int mid = ((high - low) / 2) + low;
+            if (nums[mid] < target)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        return low;
     }
 }
 
 /*
-    Runtime: 0 ms, faster than 100.00% of Java online submissions for Remove Outermost Parentheses.
-    Memory Usage: 38.1 MB, less than 100.00% of Java online submissions for Remove Outermost Parentheses.
+    Runtime: 0 ms, faster than 100.00% of Java online submissions for Search Insert Position.
+    Memory Usage: 39.6 MB, less than 21.76% of Java online submissions for Search Insert Position.
 */
